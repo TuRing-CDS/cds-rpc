@@ -26,7 +26,7 @@ let request = new Types.Request();
 request.method = 'GET';
 client.doRequest(request).then((result) => {
     console.log(result)
-    connection.end();
+    // connection.end();
 }, (err) => {
     console.error(err)
 })
