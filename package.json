@@ -24,6 +24,7 @@
   },
   "homepage": "https://github.com/TuRing-CDS/cds-rpc#readme",
   "dependencies": {
+    "debug": "^2.6.1",
     "thrift": "^0.10.0"
   }
 }
