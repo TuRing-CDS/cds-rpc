@@ -14,7 +14,7 @@ struct Request{
 
 struct HandShake{
     1: required string host
-    2: required string port
+    2: required i32 port
     3: required string sha
     4: required string sign
 }

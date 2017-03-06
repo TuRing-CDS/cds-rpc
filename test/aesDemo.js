@@ -1,11 +1,11 @@
 /**
  * Created by Z on 2017-03-06.
  */
-const AES = require('../lib/utils')
+const AES = require('../lib/utils').AES
 
 let aes = new AES('1jhcueygghxahgio');
 
-let input = aes.encryption('hello');
+let input = aes.encrypt('hello');
 
 console.log('<===',input)
 

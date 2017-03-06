@@ -3,7 +3,10 @@
  */
 const Client = require('../lib/Client');
 
-const client = new Client();
+const client = new Client(9000,'localhost',{
+    isEncrypt: true,
+    aesKey:'87xhguyjikl092jh'
+});
 
 client.on('error',(err)=>{
     console.log('==>',err);
