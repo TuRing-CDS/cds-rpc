@@ -5,7 +5,7 @@ const Thrift = require('thrift');
 
 const DoRequest = require('../lib/resources/gen-nodejs/doRequest');
 
-const Types = require('../lib/resources/gen-nodejs/rcp_types');
+const Types = require('../lib/resources/gen-nodejs/rpc_types');
 
 const server = Thrift.createServer(DoRequest, {
     doRequest: (request, callback) => {

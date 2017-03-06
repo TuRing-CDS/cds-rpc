@@ -5,9 +5,14 @@ const Server = require('../lib/Server');
 
 const server = new Server();
 
-server.on('error',console.error)
+server.on('error', console.error)
 
-server.start(async(request) => {
-    console.log(request)
-    return request;
-})
+server.start(async function (request) {
+    // return {
+    //     error:null,
+    //     result:request
+    // }
+    // return 'HELLO'
+    throw new Error('xxxx');
+});
+

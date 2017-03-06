@@ -9,14 +9,14 @@ client.on('error',(err)=>{
     console.log('==>',err);
 });
 
-setInterval(()=>{console.log('xxx')},1000);
-
 var fn = function(){
     client.invoke('GET', '/user/home', 'queryxxx', 'bodyxxx', 'extxxx').then((result)=>{
         console.log(result);
         client.close();
-        fn();
-    }, console.error);
+        // fn();
+    }, function(err){
+        console.log(err.message,err.stack,err.status);
+    });
 }
 
 fn();

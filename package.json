@@ -1,0 +1,29 @@
+{
+  "name": "cds-rpc",
+  "version": "0.0.1",
+  "description": "rpc",
+  "main": "index.js",
+  "directories": {
+    "example": "examples"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TuRing-CDS/cds-rpc.git"
+  },
+  "keywords": [
+    "rpc",
+    "cds"
+  ],
+  "author": "iamee",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TuRing-CDS/cds-rpc/issues"
+  },
+  "homepage": "https://github.com/TuRing-CDS/cds-rpc#readme",
+  "dependencies": {
+    "thrift": "^0.10.0"
+  }
+}
