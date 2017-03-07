@@ -1,7 +1,7 @@
 {
   "name": "cds-rpc",
   "version": "0.0.3",
-  "description": "rpc",
+  "description": "rpc power by cds",
   "main": "index.js",
   "directories": {
     "example": "examples"
