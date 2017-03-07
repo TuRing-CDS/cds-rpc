@@ -1,6 +1,6 @@
 {
   "name": "cds-rpc",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "rpc",
   "main": "index.js",
   "directories": {
