@@ -5,12 +5,16 @@ const Client = require('../lib/Client');
 
 const client = new Client(9000,'localhost',{
     isEncrypt: true,
-    aesKey:'87xhguyjikl092jh'
+    // aesKey:'1jhcueygghxahgio'
 });
 
 client.on('error',(err)=>{
     console.log('==>',err);
 });
+
+setInterval(()=>{
+    console.log('---')
+},1000);
 
 var fn = function(){
     client.invoke('GET', '/user/home', 'queryxxx', 'bodyxxx', 'extxxx').then((result)=>{
