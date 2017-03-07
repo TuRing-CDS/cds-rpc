@@ -11,6 +11,6 @@ const server = new Server(9000, 'localhost', {
 server.on('error', console.error)
 
 server.start(async function (request) {
-    throw new Error('xxxx');
+    return [request];
 });
 
