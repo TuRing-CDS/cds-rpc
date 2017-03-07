@@ -1,7 +1,7 @@
 /**
  * Created by Z on 2017-03-04.
  */
-const Client = require('../lib/Client');
+const Client = require('../lib/').Client;
 
 const client = new Client(9000, 'localhost', {
     isEncrypt: true,

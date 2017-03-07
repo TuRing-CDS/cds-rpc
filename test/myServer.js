@@ -1,7 +1,7 @@
 /**
  * Created by Z on 2017-03-04.
  */
-const Server = require('../lib/Server');
+const Server = require('../lib').Server;
 
 const server = new Server(9000, 'localhost', {
     isEncrypt: true,
