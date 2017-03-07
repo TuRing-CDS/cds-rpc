@@ -5,7 +5,7 @@ const Server = require('../lib/Server');
 
 const server = new Server(9000, 'localhost', {
     isEncrypt: true,
-    // aesKey: '1jhcueygghxahgio'
+    aesKey: '1jhcueygghxahgio'
 });
 
 server.on('error', console.error)
